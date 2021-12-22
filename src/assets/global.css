@@ -1,0 +1,43 @@
+.dFont {
+    font-family: 'Dosis', sans-serif;
+}
+.darkThemeTextColor {
+    color: #9d9d9d;
+}
+.colorHighlight {
+    color: #003e9a;
+}
+.text_center {
+    text-align: center;
+}
+.fonts_25 {
+    font-size: 25px;
+}
+.fonts_50 {
+    font-size: 50px;
+}
+
+/* Scroll-Down Icon */
+
+.scrollDownButton {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    filter: invert(12%) sepia(77%) saturate(3996%) hue-rotate(208deg) brightness(98%) contrast(104%);
+}
+.scrollDownIcon {
+    width: 35px;
+    height: 35px;
+}
+/* Responsive Media-Queries */
+
+@media (min-width: 790px) {
+    .title_top25BG_top10SM {
+        padding-top: 25vh;
+    }
+}
+@media (max-width: 790px) {
+    .title_top25BG_top10SM {
+        padding-top: 10vh;
+    }
+}

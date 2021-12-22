@@ -3,6 +3,8 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
 body {
   margin: 0;
 }

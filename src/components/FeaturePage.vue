@@ -1,5 +1,9 @@
 <template>
- <div id="FeaturesWrapper" style="height: 100vh">Test</div>
+ <div id="FeaturesWrapper">
+   <div id="title_feature">
+     <span class="color_highlight">Our Skills</span> aligned with your projects
+   </div>
+ </div>
 </template>
 
 <script>
@@ -11,5 +15,7 @@ export default {
 <style scoped>
   #FeaturesWrapper {
     background-color: #0e0e10;
+    height: 100vh;
   }
+
 </style>
