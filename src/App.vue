@@ -1,14 +1,8 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
-  </div>
+  <router-view/>
 </template>
 
 <style>
-#app {
-  height: 100vh;
-  width: 100vw;
-}
 body {
   margin: 0;
 }

@@ -1,4 +1,4 @@
-# coldbird_frontend
+# test_vue3
 
 ## Project setup
 ```

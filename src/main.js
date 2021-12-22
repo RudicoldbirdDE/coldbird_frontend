@@ -1,13 +1,8 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import Vuesax from 'vuesax'
 
-import 'vuesax/dist/vuesax.css'
-Vue.config.productionTip = false
+import 'bootstrap/dist/css/bootstrap-grid.css'
 
-Vue.use(Vuesax, {})
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+createApp(App).use(router).mount('#app')
+
