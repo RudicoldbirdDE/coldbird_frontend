@@ -1,7 +1,7 @@
 <template>
- <div id="FeaturesWrapper">
-   <div id="title_feature">
-     <span class="color_highlight">Our Skills</span> aligned with your projects
+ <div class="darkThemeTextColor Wrapper100 darkThemeBackground dFont" id="sFeatures">
+   <div class="text_center fonts_50 title_top5BG_top5SM">
+     <span class="colorHighlight">Our Skills</span> aligned with your projects
    </div>
  </div>
 </template>
@@ -13,9 +13,5 @@ export default {
 </script>
 
 <style scoped>
-  #FeaturesWrapper {
-    background-color: #0e0e10;
-    height: 100vh;
-  }
 
 </style>

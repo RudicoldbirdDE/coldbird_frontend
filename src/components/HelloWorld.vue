@@ -18,7 +18,7 @@
       </div>
       <div class="container">
         <div class="row justify-content-md-center">
-          <span class="scrollDownButton" @click="scroll('FeaturesWrapper')">
+          <span class="scrollDownButton" @click="scroll('sFeatures')">
               <img alt="Scroll Down Icon" class="scrollDownIcon"  src="../assets/icons/chevron-circle-down.svg">
           </span>
         </div>
