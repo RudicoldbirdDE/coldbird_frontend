@@ -6,7 +6,7 @@
     color: #9d9d9d;
 }
 .colorHighlight {
-    color: #003e9a;
+    color: #2a94f4;
 }
 .text_center {
     text-align: center;
@@ -34,7 +34,7 @@
     position: absolute;
     bottom: 50px;
     text-align: center;
-    filter: invert(12%) sepia(77%) saturate(3996%) hue-rotate(208deg) brightness(98%) contrast(104%);
+    filter: invert(47%) sepia(90%) saturate(2055%) hue-rotate(188deg) brightness(97%) contrast(96%);
 }
 .scrollDownIcon {
     width: 35px;
@@ -56,5 +56,11 @@
     }
     .title_top25BG_top10SM {
         padding-top: 10vh;
+    }
+}
+@media (max-width: 360px) {
+    .hideItem304 {
+        display: none;
+        visibility: hidden;
     }
 }
