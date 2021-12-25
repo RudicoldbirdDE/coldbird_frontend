@@ -7,10 +7,10 @@
    </div>
    <div class="container">
      <div class="row">
-      <div class="offset-xxl-1 col-xl-4 col-xxl-4 col-lg-4 col-sm-3 col-md-2 hideSm" style="padding-top: 15vh">
+      <div class="offset-xxl-1 offset-md-1 col-xl-4 col-xxl-4 col-lg-4 col-sm-3 col-md-4 hideSm" style="padding-top: 15vh">
          <img alt="Software Illustration" src="../assets/software-engineer.svg">
       </div>
-       <div class="col-xl-5 col-lg-7 col-10 col-sm-8 offset-1 fonts_25 featureText">
+       <div class="col-xl-5 col-lg-7 col-10 col-md-6 col-sm-8 offset-1 fonts_25 featureText">
          Since our foundation we work with the content management system Wordpress on which we headless to the content requirements of tomorrow. Thus, we fundamentally separate frontend and backend.
          In addition, we like and work well with the following technologies:
          <ul>
