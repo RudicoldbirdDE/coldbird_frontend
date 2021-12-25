@@ -3,7 +3,7 @@
     font-family: 'Dosis', sans-serif;
 }
 .darkThemeTextColor {
-    color: #9d9d9d;
+    color: #d7d7d7;
 }
 .colorHighlight {
     color: #2a94f4;
@@ -18,9 +18,15 @@
     font-size: 50px;
 }
 .Wrapper100 {
-    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+.featureText {
+    padding-top: 8vh;
 }
 .darkThemeBackground {
+    min-height: 100vh;
     background-color: #0e0e10;
 }
 /* Scroll-Down Icon */
@@ -62,5 +68,16 @@
     .hideItem304 {
         display: none;
         visibility: hidden;
+    }
+}
+@media (max-width: 576px) {
+    .hideSm {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width: 1694px) {
+    .fonts_25 {
+        font-size: 23px;
     }
 }

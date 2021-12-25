@@ -50,6 +50,7 @@ export default {
   min-height: 100vh;
   height: 100%;
   background-attachment: fixed;
+  background-size: cover;
 }
 #HeaderBackgroundWrapper {
   background-color: rgba(0, 0, 0, 0.80);

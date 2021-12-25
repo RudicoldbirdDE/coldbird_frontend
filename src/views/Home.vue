@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" style="overflow-x: hidden;">
     <HelloWorld></HelloWorld>
     <FeaturePage></FeaturePage>
   </div>

@@ -1,16 +1,16 @@
 <template>
  <div class="darkThemeTextColor Wrapper100 darkThemeBackground dFont" id="sFeatures">
    <div class="container title_top5BG_top5SM">
-    <div class="col-xl-8 col-10 offset-2 text_center fonts_50">
+    <div class="offset-xl-2 col-xl-8 col-10 offset-1 text_center fonts_50" style="text-align: center">
       <span class="colorHighlight">Our Skills</span> aligned with your projects
     </div>
    </div>
    <div class="container">
      <div class="row">
-      <div class="col-xl-5" style="padding-top: 15vh">
+      <div class="offset-xxl-1 col-xl-4 col-xxl-4 col-lg-4 col-sm-3 col-md-2 hideSm" style="padding-top: 15vh">
          <img alt="Software Illustration" src="../assets/software-engineer.svg">
       </div>
-       <div class="offset-md-2 offset-xl-2 col-xl-5 fonts_25" style="padding-top: 8vh;">
+       <div class="col-xl-5 col-lg-7 col-10 col-sm-8 offset-1 fonts_25 featureText">
          Since our foundation we work with the content management system Wordpress on which we headless to the content requirements of tomorrow. Thus, we fundamentally separate frontend and backend.
          In addition, we like and work well with the following technologies:
          <ul>
