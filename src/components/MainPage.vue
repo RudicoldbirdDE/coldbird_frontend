@@ -1,6 +1,6 @@
 <template>
   <div id="HeaderWrapper">
-    <div id="HeaderBackgroundWrapper" class="dFont">
+    <div id="HeaderBackgroundWrapper" style="box-shadow: inset 0px -3px 19px 1px rgba(14,14,16,1)" class="dFont">
       <HeadNavigation></HeadNavigation>
       <div class="container">
         <div class="row justify-content-md-center">

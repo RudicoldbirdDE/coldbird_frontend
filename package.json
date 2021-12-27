@@ -1,6 +1,6 @@
 {
   "name": "Coldbird_Frontend",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -13,8 +13,7 @@
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-grid-layout": "^2.3.12",
-    "vue-router": "^4.0.0-0",
-    "vuesax": "^4.0.1-alpha.25"
+    "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
