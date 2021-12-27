@@ -1,4 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Dosis:wght@300&display=swap');
+/* Header Navigation */
+.navigation_wrapper {
+    padding-top: 0.6vh;
+}
+.navigation_title {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #d7d7d7;
+    font-size: 35px;
+}
+.navigation_item {
+    padding-top: 0.8vh;
+    color: #d7d7d7;
+    font-size: 30px;
+}
+.mobileBar {
+    border-radius: 3px;
+    border: 1px solid green;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 30px;
+    filter: invert(47%) sepia(90%) saturate(2055%) hue-rotate(188deg) brightness(97%) contrast(96%);
+}
+/* Main Page */
 .dFont {
     font-family: 'Dosis', sans-serif;
 }
@@ -47,7 +70,11 @@
     height: 35px;
 }
 /* Responsive Media-Queries */
-
+@media (min-width: 500px) {
+    .mobileBar {
+        visibility: hidden;
+    }
+}
 @media (min-width: 790px) {
     .title_top5BG_top5SM {
         padding-top: 5vh;
@@ -64,7 +91,7 @@
         padding-top: 10vh;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 390px) {
     .hideItem304 {
         display: none;
         visibility: hidden;

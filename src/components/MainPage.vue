@@ -1,6 +1,7 @@
 <template>
-  <div id="HeaderWrapper" @scroll="handleFoo">
+  <div id="HeaderWrapper">
     <div id="HeaderBackgroundWrapper" class="dFont">
+      <HeadNavigation></HeadNavigation>
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-xl-7 col-10 offset-1 darkThemeTextColor text_center fonts_50 title_top25BG_top10SM">
@@ -24,6 +25,7 @@
 </template>
 
 <script>
+import HeadNavigation from "@/components/HeadNavigation";
 export default {
   name: 'MainPage',
   methods: {
@@ -34,6 +36,7 @@ export default {
     }
   },
   components: {
+    HeadNavigation
   }
 }
 </script>
