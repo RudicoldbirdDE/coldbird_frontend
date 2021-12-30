@@ -7,7 +7,7 @@
        </div>
        <div class="container-fluid engineers_avatar">
          <div class="row justify-content-md-center">
-           <div class="offset-1 xxl-col-3 col-3">
+           <div class="offset-0 offset-sm-1 col-xxl-3 col-lg-3 col-10">
              <div class="aCircle" id="jAvatar">
              </div>
              <div class="teamTextrow">
@@ -18,7 +18,7 @@
                </div>
              </div>
            </div>
-           <div class="offset-1 xxl-col-3 col-3">
+           <div class="offset-0 offset-sm-1 col-xxl-3 col-lg-3 col-10">
              <div class="aCircle" id="rAvatar">
              </div>
              <div class="teamTextrow">
@@ -29,7 +29,7 @@
                </div>
              </div>
            </div>
-           <div class="offset-1 xxl-col-3 col-3">
+           <div class="offset-0 offset-sm-1 col-xxl-3 col-lg-3 col-10">
              <div class="aCircle" id="dAvatar">
              </div>
              <div class="teamTextrow">

@@ -28,6 +28,7 @@
     color: #d7d7d7;
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
+    padding-bottom: 10vh;
 }
 #dAvatar {
     background-image: url("../assets/team/dAvatar.webp");
@@ -42,7 +43,7 @@
     background-size: cover;
 }
 .aCircle {
-    text-align: center;
+    text-align: left;
     height: 300px;
     width: 300px;
     -moz-border-radius: 50%;
@@ -58,7 +59,7 @@
 .teamwrapper {
     background: linear-gradient(270deg, #2a94f4, #4bc5cf, #a24bcf);
     background-size: 600% 600%;
-    height: 100vh;
+    min-height: 100vh;
     -webkit-animation: TeamG 30s ease infinite;
     -moz-animation: TeamG 30s ease infinite;
     animation: TeamG 30s ease infinite;
@@ -139,6 +140,11 @@
     }
     .text_center {
         padding-top: 5vh;
+    }
+}
+@media (max-width: 330px) {
+    .aCircle {
+        margin-left: -8.33333333%;
     }
 }
 @media (max-width: 390px) {
