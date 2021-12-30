@@ -23,6 +23,38 @@
     filter: invert(47%) sepia(90%) saturate(2055%) hue-rotate(188deg) brightness(97%) contrast(96%);
 }
 /* Team Page */
+.teamTextrow {
+    padding-top: 1.5vh;
+    color: #d7d7d7;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+#dAvatar {
+    background-image: url("../assets/team/dAvatar.webp");
+    background-size: cover;
+}
+#rAvatar {
+    background-image: url("../assets/team/rAvatar.webp");
+    background-size: cover;
+}
+#jAvatar {
+    background-image: url("../assets/team/jAvatar.webp");
+    background-size: cover;
+}
+.aCircle {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.engineers_avatar {
+    padding-top: 10vh;
+}
+.engine_avatar_svg {
+    width: 250px;
+}
 .teamwrapper {
     background: linear-gradient(270deg, #2a94f4, #4bc5cf, #a24bcf);
     background-size: 600% 600%;
