@@ -22,6 +22,63 @@
     width: 25px;
     filter: invert(47%) sepia(90%) saturate(2055%) hue-rotate(188deg) brightness(97%) contrast(96%);
 }
+.featurePic {
+    content: "";
+    background-image: url("../assets/software-engineer.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Footer */
+.footer_item {
+    font-family: 'Dosis', sans-serif;
+    color: #d7d7d7;
+    font-size: 23px;
+}
+.listItem {
+    margin-bottom: 1vh;
+    list-style: none;
+}
+.other_item {
+    content: '';
+    display: inline-block;
+    height: 0.65em;
+    width: 0.65em;
+    background-image: url('../assets/icons/links.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1.2em;
+    margin-bottom: 0.1em;
+}
+#socialsHeader {
+    color: #2a94f4;
+    font-size: 28px;
+    margin-top: 2vh;
+}
+#twitter_icon {
+    background: url("../assets/icons/twitter.svg") no-repeat;
+}
+#facebook_icon {
+    background: url("../assets/icons/facebook.svg") no-repeat;
+}
+#instagram_icon {
+    background: url("../assets/icons/instagram.svg") no-repeat;
+}
+#twitter_icon, #facebook_icon, #instagram_icon {
+    content: '';
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+#twitter_icon, #facebook_icon {
+    margin-right: 2vh;
+}
+#socials {
+    margin-top: 1vh;
+}
+#footer_list {
+    padding-top: 2vh;
+}
 /* Team Page */
 .teamTextrow {
     padding-top: 1.5vh;

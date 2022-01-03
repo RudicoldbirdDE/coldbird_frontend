@@ -3,6 +3,7 @@
     <MainPage></MainPage>
     <FeaturePage></FeaturePage>
     <Team></Team>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import MainPage from '@/components/MainPage.vue'
 import FeaturePage from "@/components/FeaturePage";
 import Team from "@/components/Team";
+import Footer from "@/components/footer";
 
 export default {
   name: 'Home',
   components: {
     FeaturePage,
     MainPage,
-    Team
+    Team,
+    Footer
   }
 }
 </script>
