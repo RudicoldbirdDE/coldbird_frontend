@@ -52,19 +52,9 @@
 #socialsHeader {
     color: #2a94f4;
     font-size: 28px;
-    margin-top: 2vh;
-}
-#twitter_icon {
-    background: url("../assets/icons/twitter.svg") no-repeat;
-}
-#facebook_icon {
-    background: url("../assets/icons/facebook.svg") no-repeat;
-}
-#instagram_icon {
-    background: url("../assets/icons/instagram.svg") no-repeat;
+    margin-top: 3vh;
 }
 #twitter_icon, #facebook_icon, #instagram_icon {
-    content: '';
     background-size: cover;
     width: 45px;
     height: 45px;
@@ -78,6 +68,25 @@
 }
 #footer_list {
     padding-top: 2vh;
+}
+.listItem:hover {
+    cursor: pointer;
+    padding-left: 0.3em;
+    transition: 0.1s;
+}
+.ficon:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.brights {
+    margin-top: 5vh;
+    position: absolute;
+    bottom: 0.1em;
+    font-size: 15px;
+    color: #c7c7c7;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
 }
 /* Team Page */
 .teamTextrow {
@@ -217,6 +226,14 @@
     .hideSm {
         display: none;
         visibility: hidden;
+    }
+    .social {
+        text-align: center;
+    }
+    #socials {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 @media (max-width: 1694px) {
