@@ -6,6 +6,9 @@
 body {
   margin: 0;
 }
+a {
+  color: inherit;
+}
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;

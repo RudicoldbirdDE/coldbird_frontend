@@ -24,7 +24,7 @@
 }
 .featurePic {
     content: "";
-    background-image: url("../assets/software-engineer.svg");
+    background-image: url("../software-engineer.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -43,7 +43,7 @@
     display: inline-block;
     height: 0.65em;
     width: 0.65em;
-    background-image: url('../assets/icons/links.svg');
+    background-image: url('../icons/links.svg');
     background-size: contain;
     background-repeat: no-repeat;
     padding-left: 1.2em;
@@ -80,9 +80,6 @@
     transition: 0.5s;
 }
 .brights {
-    margin-top: 5vh;
-    position: absolute;
-    bottom: 0.1em;
     font-size: 15px;
     color: #c7c7c7;
     font-family: 'Dosis', sans-serif;
@@ -97,15 +94,15 @@
     padding-bottom: 10vh;
 }
 #dAvatar {
-    background-image: url("../assets/team/dAvatar.webp");
+    background-image: url("../team/dAvatar.webp");
     background-size: cover;
 }
 #rAvatar {
-    background-image: url("../assets/team/rAvatar.webp");
+    background-image: url("../team/rAvatar.webp");
     background-size: cover;
 }
 #jAvatar {
-    background-image: url("../assets/team/jAvatar.webp");
+    background-image: url("../team/jAvatar.webp");
     background-size: cover;
 }
 .aCircle {
@@ -184,6 +181,12 @@
     height: 35px;
 }
 /* Responsive Media-Queries */
+@media (min-width: 576px) {
+    .brights {
+        position: absolute;
+        bottom: 0.1em;
+    }
+}
 @media (min-width: 500px) {
     .mobileBar {
         visibility: hidden;
@@ -234,6 +237,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .brights {
+        margin-top: 1vh;
     }
 }
 @media (max-width: 1694px) {

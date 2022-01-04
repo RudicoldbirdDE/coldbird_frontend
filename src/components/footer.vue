@@ -2,10 +2,12 @@
   <div class="footer_main" style="min-height: 20vh; background-color: #0e0e10; position: relative">
     <div class="container-fluid">
       <div class="row justify-content-md-center footer_item">
-        <div class="col-xxl-3 offset-xxl-3 offset-sm-0 col-12">
+        <div class="offset-lg-0 col-lg-3 offset-md-0 col-md-4 offset-sm-0 col-sm-5 footeri">
           <ul id="footer_list">
             <li class="listItem">
-              <div class="other_item"></div>Imprint
+              <router-link to="/imprint" style="text-decoration: none;">
+                <div class="other_item"></div>Imprint
+              </router-link>
             </li>
             <li class="listItem">
               <div class="other_item"></div>Cookies Policy
@@ -15,11 +17,11 @@
             </li>
           </ul>
         </div>
-        <div class="col-xxl-3 offset-xxl-3 col-6 offset-3 col-md-4 social">
+        <div class="offset-lg-4 col-lg-3 offset-md-2 col-md-4 offset-sm-1 col-sm-5 social">
           <div id="socialsHeader">
             ... find us on ...
           </div>
-          <div id="socials" >
+          <div id="socials">
             <div id="twitter_icon" class="ficon">
               <img alt="Twitter Icon" src="../assets/icons/twitter.svg" style="width: 45px; pointer-events: none;">
             </div>
@@ -50,5 +52,5 @@ export default {
 </script>
 
 <style scoped>
-@import '../assets/global.css';
+@import '../assets/css/global.css';
 </style>

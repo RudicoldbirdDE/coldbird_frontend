@@ -18,6 +18,6 @@ export default {
 </script>
 
 <style scoped>
-@import '../assets/global.css';
+@import '../assets/css/global.css';
 
 </style>
