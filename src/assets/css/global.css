@@ -3,6 +3,10 @@
 .navigation_wrapper {
     padding-top: 0.6vh;
 }
+#rDefault:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+}
 .navigation_title {
     font-family: 'Allerta Stencil', sans-serif;
     color: #d7d7d7;
