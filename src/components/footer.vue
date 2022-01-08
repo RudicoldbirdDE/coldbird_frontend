@@ -5,12 +5,14 @@
         <div class="offset-lg-0 col-lg-3 offset-md-0 col-md-4 offset-sm-0 col-sm-5 footeri">
           <ul id="footer_list">
             <li class="listItem">
-              <router-link to="/imprint" style="text-decoration: none;">
+              <router-link to="/imprint">
                 <div class="other_item"></div>Imprint
               </router-link>
             </li>
             <li class="listItem">
-              <div class="other_item"></div>Cookies Policy
+              <router-link to="/policy">
+                <div class="other_item"></div>Cookies Policy
+              </router-link>
             </li>
             <li class="listItem">
               <div class="other_item"></div>Career with us
