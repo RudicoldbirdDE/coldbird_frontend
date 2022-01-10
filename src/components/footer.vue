@@ -15,7 +15,9 @@
               </router-link>
             </li>
             <li class="listItem">
-              <div class="other_item"></div>Career with us
+              <router-link to="/carrers">
+                <div class="other_item"></div>Career with us
+              </router-link>
             </li>
           </ul>
         </div>

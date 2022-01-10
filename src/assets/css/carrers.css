@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Dosis:wght@300&display=swap');
+
+.carrer_handle {
+    content: '';
+}
+.career_content {
+    padding-top: 5em;
+}
+.noJobs {
+    font-size: 25px;
+    color: #c7c7c7;
+    font-family: 'Dosis', sans-serif;
+}
+@media (max-width: 1200px) {
+    .noJobsImage {
+        display: none;
+    }   
+}

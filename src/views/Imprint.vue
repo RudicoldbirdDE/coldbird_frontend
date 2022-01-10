@@ -52,5 +52,6 @@ export default {
 </script>
 
 <style scoped>
+@import "../assets/css/legacyd.css";
 @import "../assets/css/policy.css";
 </style>

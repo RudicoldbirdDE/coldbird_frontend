@@ -1,32 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Dosis:wght@300&display=swap');
-.background_wp {
-    background: url("../../assets/background_main.webp") no-repeat fixed;
-    background-size: cover;
-    min-height: 20vh;
-    z-index: -1;
-}
-.background {
-    background-color: rgba(0, 0, 0, 0.80);
-    min-height: 20vh;
-}
+
 .content {
     background-color: #0e0e10;
     min-height: 80vh;
     border-bottom: 1px solid #2a94f4;
-}
-.head_title {
-    padding-left: 1vh;
-    margin-top: 7.5vh;
-    color: #c7c7c7;
-    font-family: 'Dosis', sans-serif;
-    font-size: 40px;
-    border-left: 2px solid #2a94f4;
-}
-.head_description {
-    color: #c7c7c7;
-    font-family: 'Dosis', sans-serif;
-    padding-left: 1vh;
-    font-size: 20px;
 }
 .content_handle {
     margin-top: 4vh;
@@ -34,6 +11,7 @@
 .content_address {
     color: #c7c7c7;
     font-family: 'Dosis', sans-serif;
+    margin-bottom: 2.5em;
 }
 .address_title {
     font-size: 30px;

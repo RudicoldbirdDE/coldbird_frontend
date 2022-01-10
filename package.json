@@ -1,6 +1,6 @@
 {
-  "name": "Coldbird_Frontend",
-  "version": "0.2.2",
+  "name": "Coldbird.Frontend",
+  "version": "0.2.3",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

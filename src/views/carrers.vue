@@ -8,23 +8,28 @@
     <div class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="offset-xl-3 col-xl-3 offset-2">
+          <div class="offset-xl-3 col-xl-3">
             <div class="head_title">
-              Imprint
+              Career
             </div>
             <div class="head_description">
-              Transparency is our top priority
+              Make a career with us
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid career_content">
         <div class="row">
-          <div class="offset-xl-3 col-xl-6 offset-1 content_handle">
-            <div class="content_address">
-              <span class="address_title">Privacy Policy</span>
-              <div class="address_text">
-                <policy_text></policy_text>
+          <div class="offset-xl-3 col-xl-6 carrer_handle">
+            <div class="container">
+              <div class="row">
+                <div class="offset-xl-1 col-xl-4 noJobsImage">
+                  <img alt="No Jobs Available" src="../assets/icons/job_false.svg" style="width: 100%;">
+                </div>
+                <div class="offset-xl-1 col-xl-6 noJobs">
+                  Unfortunately, there are currently no new positions available with us.
+                  As soon as new positions are available, we will post them here. 
+                </div>
               </div>
             </div>
           </div>
@@ -37,12 +42,11 @@
 <script>
 import HeadNavigation from "@/components/HeadNavigation";
 import Footer from "@/components/footer";
-import policy_text from "@/components/policy_text";
+
 export default {
-  name: "Policy",
+  name: "Imprint",
   components: {
     HeadNavigation,
-    policy_text,
     Footer
   }
 }
@@ -50,5 +54,5 @@ export default {
 
 <style scoped>
 @import "../assets/css/legacyd.css";
-@import "../assets/css/policy.css";
+@import "../assets/css/carrers.css";
 </style>

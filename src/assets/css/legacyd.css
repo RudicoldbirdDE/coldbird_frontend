@@ -1,0 +1,27 @@
+.background_wp {
+    background: url("../../assets/background_main.webp") no-repeat fixed;
+    background-size: cover;
+    min-height: 20vh;
+    z-index: -1;
+}
+.background {
+    background-color: rgba(0, 0, 0, 0.80);
+    min-height: 20vh;
+}
+.head_title {
+    padding-left: 1vh;
+    margin-top: 7.5vh;
+    color: #c7c7c7;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    border-left: 2px solid #2a94f4;
+}
+.head_description {
+    color: #c7c7c7;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 1vh;
+    font-size: 20px;
+}
+.address_title {
+    font-size: 30px;
+}
